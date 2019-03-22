@@ -9,5 +9,14 @@
 package tira2019_craps;
 
 public class Main {
-    
+     
+    public static void main(String[] args) {
+        
+// New UI
+
+// IO initialisointi testaus??
+        
+        Interface UserInterface = new Interface();
+        UserInterface.startgame();
+    }   
 }
