@@ -1,1 +1,1 @@
-# TiRa2019_Craps
+# Tira2019 - Craps dice game 
