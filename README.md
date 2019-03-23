@@ -2,6 +2,8 @@
 
 [Määrittelydokumentti](Docs/Määrittelydokumentti.pdf)
 
+[Viikkoraportti#1](https://github.com/peterpee/repo/blob/Docs/Viikkoraportti#1)
+
 [Viikkoraportti1](Docs/Viikkoraportti#1.pdf)
 
 [Viikkoraportti2](Docs/Viikkoraportti#2.pdf)
