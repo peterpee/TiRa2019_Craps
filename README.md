@@ -2,8 +2,8 @@
 
 [Määrittelydokumentti](Docs/Määrittelydokumentti.pdf)
 
-[Viikkoraportti1](Docs/Viikkoraportti#1.pdf)
+[Viikkoraportti#1](Docs/Viikkoraportti#1.pdf)
 
-[Viikkoraportti2](Docs/Viikkoraportti#2.pdf)
+[Viikkoraportti#2](Docs/Viikkoraportti#2.pdf)
 
 
