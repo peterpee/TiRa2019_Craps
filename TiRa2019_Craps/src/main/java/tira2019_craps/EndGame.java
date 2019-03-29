@@ -1,7 +1,8 @@
 
 /*
  * Class ending Game
- * 
+ *
+ *
  */
 
 package tira2019_craps;
