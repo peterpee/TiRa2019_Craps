@@ -8,6 +8,8 @@
 
 [Viikkoraportti#3](https://github.com/peterpee/TiRa2019_Craps/blob/master/Docs/Viikkoraportti%233.pdf)
 
+[Viikkoraportti#4](https://github.com/peterpee/TiRa2019_Craps/blob/master/Docs/Viikkoraportti%234.pdf)
+
 
 
 
