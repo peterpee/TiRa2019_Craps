@@ -18,7 +18,9 @@ public class MoneyCalculatorTest {
     public MoneyCalculatorTest() {
         
         this.moneycalculator = new MoneyCalculator();
-    }
+    }   
+        
+// // Tarvii stub testin tai sen siirto omaksi luokaksi...    }
     
     @BeforeClass
     public static void setUpClass() {
@@ -29,5 +31,4 @@ public class MoneyCalculatorTest {
     }
 
     // @Test
-    // public void hello() {}
 }

@@ -7,6 +7,8 @@
 
 package tira2019_craps;
 
+import tira2019_craps.craps.ConsoleIO;
+
 public class Interface {
     
     private Gaming gaming;
@@ -15,7 +17,9 @@ public class Interface {
     
     public Interface () {
                
-        this.gaming = new Gaming(new ConsoleIO());
+    this.gaming = new Gaming();
+// // Console IO tähän mukaan ??? Ja craps kansioon io testaus koodit
+//this.gaming = new Gaming(new tira2019_craps.craps.ConsoleIO());
     }
     
 // Game starts in class Gaming
