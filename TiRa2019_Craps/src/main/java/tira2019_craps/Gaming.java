@@ -118,7 +118,7 @@ public class Gaming {
 
         if (this.input == 1 || this.input == 2) {
             //checkBalance();
-            this.randomizer.randomizeNumbers(2);
+            this.randomizer.randomizeNumbers();
             this.sum = this.randomizer.getSum();
             this.moneycalculator.calcMoneyFirst(this.input, this.sum);         
         }
@@ -173,7 +173,7 @@ public class Gaming {
             //checkBalance();
             //moneyBetter();
             
-            this.randomizer.randomizeNumbers(2);
+            this.randomizer.randomizeNumbers();
             this.sum = this.randomizer.getSum();
             this.moneycalculator.calcMoneySecond(this.input, this.sum);   
         }

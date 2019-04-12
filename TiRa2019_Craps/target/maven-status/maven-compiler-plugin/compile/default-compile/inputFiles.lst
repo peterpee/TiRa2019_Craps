@@ -3,9 +3,10 @@ D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\Main.java
 D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\MoneyCalculator.java
 D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\Gaming.java
 D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\Randomizer.java
-D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\IO.java
-D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\ConsoleIO.java
+D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\craps\IO.java
 D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\CheckBalance.java
 D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\Rules.java
 D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\EndGame.java
 D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\Interface.java
+D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\craps\Gaming.java
+D:\NetBeans\TiRa2019_Craps\src\main\java\tira2019_craps\craps\ConsoleIO.java

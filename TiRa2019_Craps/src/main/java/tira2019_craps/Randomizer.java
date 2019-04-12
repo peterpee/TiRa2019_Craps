@@ -1,59 +1,74 @@
 
 /*
- *  Randomize given count of dices and return the sum    
+ *  Randomize dices and return sum or dices     
+ *
  *
  */
 
-// // Tehtävä generointi itse, kesken
 package tira2019_craps;
 
 import java.util.*;
 
 public class Randomizer {
     
-    private int[] dicethrow;
+    private int max;
+    private int last;
+    private int total = 0;
+    private int[] dices;
+    private int dicethrows = 0;
     private int sum;
-    private int throwcount;
 
 // Constructor
     
     public Randomizer() {
-
-        this.dicethrow = new int[2]; 
+        
+        this.total = total;
+        this.dices = new int[20];
+        this.dicethrows = dicethrows;
+        this.max = 7;
         this.sum = sum;
-        this.throwcount = 0;
+        this.last = (int) (System.currentTimeMillis() % this.max);
     }
 
 // Randomize two dices
     
-    public void randomizeNumbers (int count) {
+    public int nextInt(){
         
-        this.sum = 0;
-         
-        System.out.print("\nRolling the dices....");
-        System.out.print("\nYou threw dices:");
-        System.out.print("\nDice - Count\n");
-        this.throwcount = throwcount + 1;
-        
-        for (int i = 0; i < count; i++){
-            int random = 1 + (int)(Math.random() * ((count) + 1));   
-            this.dicethrow[i] = random;
-            System.out.print(i + 1 + "      "  + this.dicethrow[i] + "\n");
-            this.sum = this.sum + this.dicethrow[i];
+        this.last = (this.last * 32719 + 3) % 32749;
+        if (this.last % this.max == 0) {
+            nextInt();
         }
-        System.out.print("Sum:   " + this.sum);
+        return this.last % this.max;
+    }
+    
+// Print randomized dices   
+
+    public void randomizeNumbers() {
+ 
+        System.out.println("You threw dices: ");
+        this.sum = 0;
+
+        for (int i = 0; i < 20 ; i++) {
+            total += 1;
+            if (total < 3) {
+                this.dices[i] = this.nextInt();
+                System.out.print(nextInt() + "  ");
+            }   
+        }
         
+       System.out.println(this.dices[0] + this.dices[1]);
     }
 
-// Return the thrown sum
+// Return dices
+
+    public int[] getResult() {
+        return dices;
+    }
     
-    public int getSum () {
+// Return sum
+    
+    public int getSum() {
+        this.sum = dices[0] + dices[1];
         return this.sum;
     }
-    
-// Return the counted throws
-    
-    public int getThrowcount (){
-        return this.throwcount;
-    }
-}
+}      

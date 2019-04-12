@@ -2,7 +2,7 @@
 /*
  * @TiRa2019_craps      Craps dice program
  * @author              PP 2019
- * @version             1.3                 
+ * @version             1.4                 
  * @since               1.0          
  */
 
